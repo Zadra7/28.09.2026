@@ -6,11 +6,22 @@ namespace _28._09._2026
 {
     public class osoba
     {
-        public string imie;
-        public int wiek;
+        private string imie;
+        private int wiek;
         //konstruktor - metoda wywoływana w momencie tworzenia obiektu
         //przypisuje wartości początkowe do pól klasy
         //imie i wiek to pola klasy
+
+        /*
+         * modyfikatory dostępu:
+         * private - dostęp tylko wewnątrz klasy
+         * public - dostęp z każdego miejsca w programie
+         * 
+         * protected - dostęp tylko w klasach dziedziczących po tej klasie
+         * 
+         * jeżeli stosujemy private i protected
+         * to hermetyzacja inaczej enkapsulacja
+         */
 
         public osoba(string imie, int wiek)
         {
